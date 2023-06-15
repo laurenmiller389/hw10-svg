@@ -7,9 +7,9 @@ describe('Square', () => {
             const text = "abcde";
             const textColor = "white";
             
-            const square = new Square(text, textColor, shapeColor);
+            const square = new Square(shapeColor, text, textColor);
             expect(square instanceof Square).toBe(true)
-            expect(square).toEqual({text: text, textColor: textColor, shapeColor: shapeColor})
+            expect(square).toEqual({shapeColor: shapeColor, text: text, textColor: textColor})
         })
  
     })
@@ -19,7 +19,7 @@ describe('Square', () => {
             const text = "abcde";
             const textColor = "white";
             
-            const shape = new Square(text, textColor, shapeColor);
+            const shape = new Square(shapeColor, text, textColor);
             expect(shape.render()).toContain(`<rect width="150" height="200" fill="black" />`)
         })
 
