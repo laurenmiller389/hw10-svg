@@ -24,6 +24,9 @@ To get the application running, type 'node index' into your terminal and fill ou
 
 ![screenshot of the input](./screenshot.png)
 
+View my demo:
+https://drive.google.com/file/d/15sI6voKwyVgPi-Enkuil9wHJtyun3PC6/view
+
 ## Credits
 
 Columbia University Coding Bootcamp
