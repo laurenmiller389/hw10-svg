@@ -8,7 +8,7 @@ describe('Triangle', () => {
             const textColor = "white";   
 
             const shape = new Triangle(text, textColor, shapeColor);
-            expect(shape.render()).toContain(`<polygon points="200, 20 50, 150 140, 75" fill="blue" />`);
+            expect(shape.render()).toContain(`<polygon points="200, 20 50, 150 140, 75" fill="black" />`);
         })
 
     })

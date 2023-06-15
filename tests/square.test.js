@@ -20,7 +20,7 @@ describe('Square', () => {
             const textColor = "white";
             
             const shape = new Square(text, textColor, shapeColor);
-            expect(shape.render()).toContain(`<rect width="150" height="200" fill="yellow" />`)
+            expect(shape.render()).toContain(`<rect width="150" height="200" fill="black" />`)
         })
 
     })

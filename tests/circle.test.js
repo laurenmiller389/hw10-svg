@@ -8,7 +8,7 @@ describe('Circle', () => {
             const textColor = "white";
 
             const shape = new Circle(text, textColor, shapeColor);
-            expect(shape.render()).toContain(`<circle cx="150" cy="100" r="80" fill="green" />`);
+            expect(shape.render()).toContain(`<circle cx="150" cy="100" r="80" fill="black" />`);
         })
 
     })

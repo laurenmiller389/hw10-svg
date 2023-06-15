@@ -30,7 +30,7 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
-        console.log()
+        console.log("Generated logo.svg")
     })
 }
 
@@ -41,7 +41,7 @@ const handleAnswers = (answers) => {
         init();
     } 
     else {
-        writeToFile('circle.svg', makeLogo(answers))
+        writeToFile('logo.svg', makeLogo(answers))
     }
 }
 
